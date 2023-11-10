@@ -1,0 +1,125 @@
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    transition: 1s;
+    margin: 0 auto;
+    background-color: #fff;
+   position: relative;
+   top: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 22;
+    transition: 1s;
+  }
+
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    z-index: 20;
+  }
+
+  .search-button {
+    background-color: #fff; 
+    color: #3f3f3f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 20;
+    transition: 1s;
+  }
+  .search-button:hover {
+    background-color: #00ced1; 
+    z-index: 20;
+    color: #fff;
+    transition: 1s;
+}
+
+
+@media screen and (max-width:700px){
+  .search-bar{
+    max-width: 500px;
+    transition: 1s;
+    top: 10px;
+  }
+}
+@media screen and (max-width:620px){
+  .search-bar{
+    top: 45px;
+    top: -10px;
+  }
+}
+
+@media screen and (max-width:550px){
+  .search-bar{
+    top: 8px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width:470px){
+  .search-bar{
+    top: 45px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:470px) and (max-height:920px){
+  .search-bar{
+    top: -10px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:455px) and (max-height:910px){
+  .search-bar{
+    top: 20px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:420px) and (max-height:920px){
+  .search-bar{
+    top: 10px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:420px) and (max-height: 750px){
+  .search-bar{
+    top: 30px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:410px) and (max-height: 770px){
+  .search-bar{
+    top: 40px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:410px) and (max-height: 720px){
+  .search-bar{
+    top: 20px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:398px) and (max-height: 755px){
+  .search-bar{
+    top: 20px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:390px) and (max-height: 755px){
+  .search-bar{
+    top: 0px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width:305px) and (max-height:655px){
+  .search-bar{
+    top: 0px;
+    max-width: 220px;
+  }
+}

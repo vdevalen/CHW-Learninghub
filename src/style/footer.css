@@ -1,0 +1,44 @@
+/* styles.css */
+
+.container-primary-navigation {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0;
+  }
+  
+  .container-main {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0;
+    color: white;
+    background-color: #003d6a;
+  }
+  
+  .container-sm {
+    padding: 0;
+  }
+  
+  .footer-logo img {
+    height: 95px;
+  }
+  
+  .border-right {
+    border-right: 1px solid #fff;
+  }
+  
+  .info-footer {
+    margin: 0;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .border-bottom {
+    border-color: #fff;
+  }
+  
+  .right-to-left {
+    flex-direction: row-reverse;
+  }
+  

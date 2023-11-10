@@ -1,0 +1,76 @@
+.cardRSS {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    border: 0 none;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    height: 10rem;
+    width: 80%;
+    height: 270px;
+    z-index: 30000;
+    overflow: hidden;
+    top: 0px;
+    left: 50%;
+  }
+  
+  /* Cuerpo de la tarjeta RSS */
+  .cardRSS-body {
+    flex: 3;
+    text-overflow: ellipsis; /* Muestra puntos suspensivos cuando el texto se desborda */
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 55%;
+    height: 80%;
+    position: relative;
+    left: -10px;
+    top: 0px;
+  
+  }
+  .cardRSS-title {
+    white-space: wrap;
+    width: 80%;
+    color: gray; /* Cambia el color del título a gris */
+    font-size: 20px; /* Ajusta el tamaño del título según tus preferencias */
+    font-weight: bold; /* Añade negrita al título si es necesario */
+    margin-bottom: 10px; /* Espaciado entre el título y el texto */
+  }
+  .btnRSS-image{
+    width: 30px;
+   color: gray;
+   letter-spacing: 3px;
+ 
+   text-decoration: none;
+   border-radius: 100%;
+   text-align: center;
+   padding: 5px;
+  }
+  
+  
+  
+  /* Imagen superior de la tarjeta RSS */
+  .cardRSS-img-top {
+    max-width: 14rem;
+    height: 12rem;
+    margin-right: 1rem;
+    padding: 30px;
+   border-radius: 40px;
+  
+  }
+  
+  /* Icono de la tarjeta RSS */
+  #iconRSS {
+    border-radius: 15px;
+  }
+  
+  /* Botón de la tarjeta RSS */
+  #buttonRSS {
+    background-color: white;
+    border-color: white;
+  }

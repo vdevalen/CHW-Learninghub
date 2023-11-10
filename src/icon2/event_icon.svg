@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.769" height="32" viewBox="0 0 32.769 32">
+  <g id="calendar-svgrepo-com" transform="translate(-1 -1.5)">
+    <path id="Path_5245" data-name="Path 5245" d="M20.462,32.5H14.308c-5.8,0-8.7,0-10.505-1.855S2,25.8,2,19.833V16.667C2,10.7,2,7.71,3.8,5.855S8.506,4,14.308,4h6.154c5.8,0,8.7,0,10.505,1.855s1.8,4.841,1.8,10.812v3.167c0,5.971,0,8.957-1.8,10.812a6.55,6.55,0,0,1-4.351,1.694" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_5246" data-name="Path 5246" d="M7,4V2.5" transform="translate(2.692)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_5247" data-name="Path 5247" d="M17,4V2.5" transform="translate(8.077)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_5248" data-name="Path 5248" d="M32.269,9H15.582M2,9H8.015" transform="translate(0 3.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_5249" data-name="Path 5249" d="M18,17a1,1,0,1,1-1-1A1,1,0,0,1,18,17Z" transform="translate(8.376 8.1)" fill="#fff"/>
+    <path id="Path_5250" data-name="Path 5250" d="M18,13a1,1,0,1,1-1-1A1,1,0,0,1,18,13Z" transform="translate(8.376 5.7)" fill="#fff"/>
+    <path id="Path_5251" data-name="Path 5251" d="M13,17a1,1,0,1,1-1-1A1,1,0,0,1,13,17Z" transform="translate(5.385 8.1)" fill="#fff"/>
+    <path id="Path_5252" data-name="Path 5252" d="M13,13a1,1,0,1,1-1-1A1,1,0,0,1,13,13Z" transform="translate(5.385 5.7)" fill="#fff"/>
+    <path id="Path_5253" data-name="Path 5253" d="M8,17a1,1,0,1,1-1-1A1,1,0,0,1,8,17Z" transform="translate(2.393 8.1)" fill="#fff"/>
+    <path id="Path_5254" data-name="Path 5254" d="M8,13a1,1,0,1,1-1-1A1,1,0,0,1,8,13Z" transform="translate(2.393 5.7)" fill="#fff"/>
+  </g>
+</svg>

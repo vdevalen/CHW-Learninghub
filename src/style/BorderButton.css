@@ -1,0 +1,7 @@
+.border-button{
+    border: 1px solid #cbc7c7;
+    background: transparent;
+    color: #47BBC6;
+    padding: 4px 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+/* languageSelector.css */
+.SupportCenter{
+  position: relative;
+  display: inline-block;
+  top: 24px;
+left: -100%;
+text-decoration: none;
+color: #8a8989;
+transition: 1s;
+}
+.SupportCenter:hover{
+  color: #1d5d8b;
+  transition: 1s;
+}
+.language-selector {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+left: 20%;
+font-size: 12px;
+transition: 1s;
+}
+
+.language-button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #FAF5ED;
+  border-radius: 4px;
+  color: #8a8989;
+  display: flex;
+  align-items: center;
+
+
+}
+.icoImg{
+  width: 12px;
+  padding-right: 6px;
+}
+.iconLanguaje {
+  margin-right: 5px;
+}
+
+.language-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  display: none;
+  flex-direction: column;
+z-index: 60;
+transition: 1s;
+}
+
+.language-option {
+  padding: 20px;
+  color: #6b6a6a;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  display: block;
+}
+.language-option:hover{
+  color: #1d5d8b;
+}
+
+.language-option:hover {
+  background-color: #f0f0f0;
+}
+
+.language-selector:hover .language-menu {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 900px){
+
+.language-selector {
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  top: 20px;
+left: 5000%;
+font-size: 12px;
+transition: 1s;
+}
+.language-button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #EDEAE6;
+  border-radius: 4px;
+  color: transparent;
+  display: flex;
+  align-items: center;
+
+
+}
+}

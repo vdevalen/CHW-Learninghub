@@ -1,0 +1,14 @@
+<svg id="Group_3551" data-name="Group 3551" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Ellipse_166" data-name="Ellipse 166" fill="none" stroke="#47bbc6" stroke-width="1">
+    <circle cx="15" cy="15" r="15" stroke="none"/>
+    <circle cx="15" cy="15" r="14.5" fill="none"/>
+  </g>
+  <circle id="Ellipse_173" data-name="Ellipse 173" cx="10" cy="10" r="10" transform="translate(5 5)" fill="#47bbc6"/>
+  <g id="Ellipse_166-2" data-name="Ellipse 166" fill="#47bbc6" stroke="#47bbc6" stroke-width="1">
+    <circle cx="15" cy="15" r="15" stroke="none"/>
+    <circle cx="15" cy="15" r="14.5" fill="none"/>
+  </g>
+  <g id="Interface_Check" data-name="Interface / Check" transform="translate(2.636 3)">
+    <path id="Vector" d="M6,12l4.243,4.243,8.484-8.485" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
