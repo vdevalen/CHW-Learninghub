@@ -1,0 +1,52 @@
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+    border: 1px solid #ccc;
+    color: gray;
+    height: 60px;
+  }
+  
+  /* Hide the default checkbox input */
+  .checkbox-input {
+    display: none;
+  }
+
+  .custom-checkbox:checked {
+    border: none; /* Elimina el borde */
+  }
+  
+  /* Custom styling for the checkbox checkmark */
+  /* .checkbox-checkmark {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+  } */
+  
+  /* Style for the checkmark when the checkbox is checked */
+  /* .checkbox-input:checked + .checkbox-checkmark:after {
+    content: '\2713'; 
+    position: absolute;
+    top: 0;
+    left: 2px;
+    font-size: 16px;
+    color: #007bff;
+  } */
+
+  .form-check-input{
+    position: relative;
+    width: 100%;
+    height: 20px;
+}

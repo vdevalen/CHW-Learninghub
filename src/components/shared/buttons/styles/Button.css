@@ -1,0 +1,21 @@
+.border-button{
+    width: 100px;
+    background-color: white;
+    border: 1px solid white;
+    color: #47BBC6;
+    border-radius: 5px;
+}
+
+.next-button {
+    width: 100px;
+    background-color: #47BBC6;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-button {
+    border: none;
+    background-color: white;
+    color: gray;
+}

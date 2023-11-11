@@ -1,3 +1,15 @@
+/*TITULOS PRINCIPALES PROFILE*/
+
+.title-h1{
+    color: #143F6A;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
 
 .App{
     overflow-x: hidden;
@@ -22,3 +34,4 @@ body{
     background-color: #FAF5ED;
     user-select: none;
 }
+

@@ -1,11 +1,11 @@
 import React from 'react';
-import '../components/Button'; 
-import '../components/ButtonSkills'; 
-import {  } from "../style/Profile.css";
-import Header from '../components/header';
-import InterestCard from '../components/InterestCard'
-import TopicsCard from '../components/TopicsCard'
-import {} from '../style/header.css'
+import '../components/shared/buttons/Button'; 
+import '../components/shared/buttons/ButtonSkills'; 
+import {  } from "../styles/Profile.css";
+import Header from '../components/core/Header';
+import InterestCard from '../components/shared/cards/InterestCard'
+import TopicsCard from '../components/shared/cards/TopicsCard'
+import {} from '../styles/Header.css'
 
 const AgenciesAndOrganizations = () => {
   return (
@@ -22,7 +22,7 @@ const AgenciesAndOrganizations = () => {
 </div>
 <div className="row">
   <div className="col-sm-4">
-    <InterestCard img={'react_components/dashboard/src/img/resume.svg'} text='Recruitment ' style={{ marginRight: '10px' }} />
+    <InterestCard img={'/mg-2/resume.svg'} text='Recruitment ' style={{ marginRight: '10px' }} />
   </div>
 </div>
 <div>

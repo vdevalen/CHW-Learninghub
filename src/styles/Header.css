@@ -1,0 +1,28 @@
+/* Header.css */
+.header{
+  background-image: url(https://chwlearninghub.org/images/test/title_chwp.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+.title-header {
+  font-size: 24px;
+  color: white;
+  margin-top: 6%;
+}
+
+.p-chws{
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+  max-width: 60%; /* Ajusta el ancho máximo según sea necesario */
+}

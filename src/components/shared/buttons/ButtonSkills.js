@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/ButtonSkills.css'; 
+import './styles/ButtonSkills.css'; 
 
 const ButtonSkills = ({ text }) => {
 

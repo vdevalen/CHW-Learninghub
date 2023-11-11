@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.36" height="46" viewBox="0 0 45.36 46">
+  <g id="schedule" transform="translate(-5.35 -4.63)">
+    <path id="Path_5120" data-name="Path 5120" d="M31.969,47.513H8.455a2.113,2.113,0,0,1-2.1-2.071V11.735a2.1,2.1,0,0,1,2.1-2.1H42.129a2.1,2.1,0,0,1,2.1,2.1V30.668" transform="translate(0 -0.774)" fill="none" stroke="#47bbc6" stroke-width="2"/>
+    <line id="Line_857" data-name="Line 857" x2="37.883" transform="translate(6.35 18.154)" fill="none" stroke="#47bbc6" stroke-width="2"/>
+    <line id="Line_858" data-name="Line 858" y1="4.226" transform="translate(14.895 4.63)" fill="none" stroke="#47bbc6" stroke-width="2"/>
+    <line id="Line_859" data-name="Line 859" y1="4.226" transform="translate(35.147 4.63)" fill="none" stroke="#47bbc6" stroke-width="2"/>
+    <circle id="Ellipse_179" data-name="Ellipse 179" cx="10.506" cy="10.506" r="10.506" transform="translate(28.698 28.618)" fill="none" stroke="#47bbc6" stroke-width="2"/>
+    <path id="Path_5121" data-name="Path 5121" d="M45.22,36.7v7.708L48.9,47.232" transform="translate(-6.016 -4.964)" fill="none" stroke="#47bbc6" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,12 +1,11 @@
 import React from 'react';
-import '../style/Button.css'; 
-import '../style/ButtonSkills.css'; 
-import  "../style/Profile.css";
-import Header from '../components/header';
-import InterestCard from '../components/InterestCard'
-import TopicsCard from '../components/TopicsCard'
-import {} from '../style/header.css'
-
+import '../components/shared/buttons/Button'; 
+import '../components/shared/buttons/ButtonSkills'; 
+import {  } from "../styles/Profile.css";
+import Header from '../components/core/Header';
+import InterestCard from '../components/shared/cards/InterestCard'
+import TopicsCard from '../components/shared/cards/TopicsCard'
+import {} from '../styles/Header.css'
 
 const ChwsPromoter = () => {
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Profile.css';
+import '../../../styles/Profile.css';
 
 const InterestCard = ({ img, text }) => {
   return (
@@ -17,7 +17,7 @@ const InterestCard = ({ img, text }) => {
             </div>
             <div className="col-1 ml-2 mt-3">
               <div className="row">
-                <img src='../mg-2/next_icon.svg' alt="next icon"></img>
+                <img src='/mg-2/next_icon.svg' alt="next icon"></img>
               </div>
             </div>
           </div>

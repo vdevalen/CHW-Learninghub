@@ -1,0 +1,17 @@
+/* Custom styling for the input */
+.custom-input {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    background: #eee;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Additional styling when the input is focused */
+  .custom-input:focus {
+    border-color: #47BBC6;
+  }
