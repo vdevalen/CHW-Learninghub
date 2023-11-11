@@ -92,14 +92,14 @@ function Home() {
       />
       </Link>
       <Card
-        title="Engahement and Advocacy"   
+        title="Engagement and Advocacy"   
         imageUrl={imgC6}
       />
       </div>
       <div id="main2" className="main2">
         <h2 className="titleMain2"> Filter by Resource Type</h2>
         <p className="textMain2"> You can preview some of our content by applying the following filters, Creaåte and account all of our material on personal development, capacity building, and as and ald to use share when working whith their community.</p>
-        <div className="CardContainer2">
+        <div id="CardContainer2" className="CardContainer2">
         <Card2
         title="Printable"
         text="Resources you can print"   

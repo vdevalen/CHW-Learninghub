@@ -23,7 +23,6 @@ function App() {
         <Route path="/Error404" element={<Error404Component />} />
         <Route path="/CoordinatorsAndSupervisors" element={<CoordinatorsAndSupervisors />} />
         <Route path="/AgenciesAndOrganizations" element={<AgenciesAndOrganizations />} />
-        
       </Routes>
     </Router>
   );

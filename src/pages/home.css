@@ -3,13 +3,16 @@
     position: relative;
     top: 100px;
     height: 750px;
-   
+    width: 100%;
     background-color: #FAF5ED;
     
 }
+.Home{
+    max-width: 1920px;
+}
 .Appp{
  overflow-x: hidden;
- max-width: 1920px;
+ max-width: 1320px;
 }
 .main4 {
     max-width: 1300px;
@@ -23,7 +26,7 @@
   }
   
 .CardContainer{
-    max-width: 1300px;
+    width: 100%;
 
     z-index: 900;
     position: relative;
@@ -128,7 +131,7 @@ transition: 1s;
 }
 
 .main3 {
-    max-width: 1500px;
+
     width: 104%;
     height: 700px;
     position: relative;
@@ -394,9 +397,9 @@ background-color: aqua;
         top: -400px;
     }
 }
-@media screen and (max-width: 3837px) and (max-height:1815px){
+@media screen and (max-width: 3870px) and (max-height:1815px){
     .main6{
-        top: 0px;
+        top: 20px;
     }
 }
 @media screen and (max-width: 2560px) and (max-height:1210px){
@@ -412,6 +415,16 @@ background-color: aqua;
 @media screen and (max-width: 1710px) and (max-height:810px){
     .main6{
         top: 600px;
+    }
+    .Appp{
+ overflow-x: hidden;
+ max-width: 1520px;
+}
+}
+@media screen and (max-width: 1410px){
+    .Appp{
+        overflow-x: hidden;
+        max-width: 1520px;
     }
 }
 @media screen and (max-width: 1600px) and (max-height:760px){
@@ -429,10 +442,102 @@ background-color: aqua;
         top: 700px;
     }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1920px) {
+    .Appp{
+        overflow-x: hidden;
+        max-width: 1750px;
+       }
+    .CardContainer{
+        left: 10%;
+    }
+    .main3{
+    width: 110%;
+
+
+  }
+  .title2{
+    left: 35%;
+    color: #173f67;
+  }
+   .learn-More{
+        left: 45%;
+      }
+}
+   
+@media screen and (max-width:1750px){
+  .card3{
+    left: 15%;
+  }
+  
+   .main3{
+    width: 110%;
+    left: 0%;
+    background-color: #FFC100;
+
+  }
+  .title2{
+    left: 35%;
+    color: #173f67;
+  }
+   .learn-More{
+        left: 46%;
+      }
+}
+@media screen and (max-width:1600px){
+  .main3{
+    width: 110%;
+    left: 0%;
+    background-color: #FFC100;
+  
+  }
+   .title2{
+        left: 35%;
+        color: #173f67;
+      }
+      .learn-More{
+        left: 47%;
+      }
+  }
+@media screen and (max-width: 1500px) {
     .main6{
         top: 700px;
     }
+    .CardContainer{
+        left: 5%;
+    }
+    .main3 {
+        width: 150%;
+    }
+      .video {
+        width: 1500px;
+      }
+      .main3{
+        width: 110%;
+        left: 0%;
+        background-color: #FFC100;
+      }
+      .title2{
+        left: 40%;
+        color: #ccc;
+      }
+}
+@media screen and (max-width: 1300px) {
+   
+    .CardContainer{
+        left: 0%;
+    }
+    .CardContainer2{
+        left: 0%;
+    }
+    .main3{
+        width: 110%;
+        left: -5%;
+        background-color: #FFC100;
+      }
+      .title2{
+        left: 45%;
+        color: #ccc;
+      }
 }
 @media screen and (max-width: 1180px){
     .backMain{

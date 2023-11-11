@@ -54,9 +54,21 @@
     background-color: #184572;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-
- 
-  
+  @media screen and (max-width: 1920px) {
+    .card2{
+      left: 32%;
+    }
+  }
+  @media screen and (max-width: 1750px){
+    .card2{
+      left: 28%;
+    }
+  }
+  @media screen and (max-width: 1500px){
+    .card2{
+      left: 25%;
+    }
+  }
   @media screen and (max-width:900px){
     .card2{
       left: 6%;

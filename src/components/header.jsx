@@ -54,13 +54,15 @@ function Header() {
           <Link to="/Home"><li> <a href="#">HOME</a> </li> </Link>
           <Link to="/Error404"><li> <a href="#">ABOUT</a> </li> </Link>
           <Link to="/Error404"><li> <a href="#">TOPICS</a> </li> </Link>
-          <Link to="/Error404"><li> <a href="#">RESOURSES</a> </li> </Link>
+          <Link to="/Error404"><li> <a href="#">RESOUCES</a> </li> </Link>
           <Link to="/Error404"><li> <a href="#">GAMES</a> </li> </Link>
           <Link to="/Error404"><li> <a href="#">BLOG</a> </li> </Link>
           <Link to="/Error404"><li> <a href="#">FORUM</a> </li> </Link>
           <Link to="/Error404"><li> <a href="#">CONTACT</a> </li> </Link>
-          <li><a href="#" id='loguinBottom' className="login-button">Log In</a></li>
-          <li><a href="#" id='singupBottom' className="signup-button">Sign Up</a></li>
+          <div className="botnCont">
+          <li><a href="#" id='loguinBottomm' className="login-buttonn">Log In</a></li>
+          <li><a href="#" id='singupBottomm' className="signup-buttonn">Sign Up</a></li>
+          </div>
         </ul>
           
       </nav>

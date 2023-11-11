@@ -156,8 +156,26 @@ border-radius: 10px;
   opacity: 1;
   visibility: visible;
 }
-
-
+@media screen and (max-width:1920px){
+  .card3{
+    left: 20%;
+  }
+}
+@media screen and (max-width:1750px){
+  .card3{
+    left: 15%;
+  }
+}
+@media screen and (max-width:1500px){
+  .card3{
+    left: 5%;
+  }
+}
+@media screen and (max-width:1300px){
+  .card3{
+    left: 0;
+  }
+}
 @media screen and (max-width:900px){
   .card3{
     left: 0%;

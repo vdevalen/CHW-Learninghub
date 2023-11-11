@@ -12,7 +12,11 @@ header {
    
 }
 
-
+.botnCont{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
 
 /* Estilos para el menú principal */
 .menu {
@@ -51,37 +55,37 @@ header {
 }
 
 /* Estilos para los botones Log In y Sign Up en el menú principal */
-.login-button,
-.signup-button {
+.login-buttonn,
+.signup-buttonn {
     background-color: #5ABFCB; /* Color de fondo */
     padding: 7px 10px; /* Reduce el padding para hacer los botones más pequeños */
-    margin-left: 10px; /* Espaciado entre los botones y otros botones */
+    margin-left:0; /* Espaciado entre los botones y otros botones */
     border-radius: 5px; /* Borde redondeado */
     color: #141414;
     text-decoration: none;
     transition: background-color 0.3s ease;
     position: relative;
-    left: 60%;
+    left: 65%;
     font-size: 12px;
     font-weight: bold;
    
 }
 
-#loguinBottom{
+#loguinBottomm{
     color: #5ABFCB;
-    left: 60%;
+    left: 67%;
     border: solid 1px #00ced1;;
     background-color: #FAF5ED;
 }
-#singupBottom{
+#singupBottomm{
     color: #fff;
     transition: 1.1s;
 }
-#singupBottom:hover{
+#singupBottomm:hover{
     transition: 1.1s;
 }
-.login-button:hover,
-.signup-button:hover {
+.login-buttonn:hover,
+.signup-buttonn:hover {
     background-color: #00ced1; /* Cambia el color de fondo al pasar el cursor */
     transition: 1.1s;
 }
@@ -143,16 +147,100 @@ header {
     flex-direction: row;
     width: 100%;
    background-color: #FAF5ED;
-    left: 10%;
+    left: 8%;
 }
 .divContainer{
     position: relative;
     top: 20px;
 }
-/* Resto de tus estilos existentes... */
+@media screen and (max-width: 1920px) {
+    .botnCont{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        position: relative;
+        left: 45%;
+        height: 10px;
 
-/* Media query para mostrar el menú desplegable cuando la pantalla es menor a 940px */
+    }
+    .LanguageSelectorC{
+        left: 47%;
+    }
+    .line {
+       
+        width: 202%; /* Ocupar el 100% de ancho */
+    }
+}
+@media screen and (max-width: 1750px) {
+    .botnCont{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        position: relative;
+        left: 40%;
+        height: 10px;
 
+    }
+    .LanguageSelectorC{
+        left: 45%;
+    }
+    .line {
+       
+        width: 192%; /* Ocupar el 100% de ancho */
+    }
+}
+@media screen and (max-width: 1600px) {
+    .botnCont{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        position: relative;
+        left: 30%;
+        height: 10px;
+
+    }
+    .LanguageSelectorC{
+        left: 35%;
+    }
+    .line {
+       
+        width: 172%; /* Ocupar el 100% de ancho */
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .botnCont{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        position: relative;
+        left: 15%;
+        height: 10px;
+
+    }
+    .LanguageSelectorC{
+        left: 20%;
+    }
+    .line {
+       
+        width: 172%; /* Ocupar el 100% de ancho */
+    }
+}
+@media screen and (max-width: 1300px) {
+    .botnCont{
+        display: flex;
+        left: 0%;
+        flex-direction: row;
+        width: 200px;
+    }
+    .line {
+       
+        width: 172%; /* Ocupar el 100% de ancho */
+    }
+    .LanguageSelectorC{
+        left: 5%;
+    }
+}
 @media (max-width: 900px) {
     header {
         background-color: #FAF5ED; /* Color de fondo del header */
