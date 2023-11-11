@@ -11,7 +11,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+  margin-left: 50px; 
 }
 
 .title-header {
