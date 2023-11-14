@@ -1,6 +1,5 @@
 import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
 import '../components/shared/buttons/Button'; 
 import '../components/shared/buttons/ButtonSkills'; 
 import {  } from "../styles/Profile.css";
